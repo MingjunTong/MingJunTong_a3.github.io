@@ -1,0 +1,447 @@
+.left {
+    width: 490px;
+}
+
+.left .pic_box {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 24px 0 34px;
+    border: 1px solid #fff;
+}
+
+.img1 {
+    margin-right: 23px;
+    height: 474px;
+}
+
+.img2 {
+    margin-bottom: 15px;
+}
+
+.img2,
+.img3 {
+    width: 120px;
+    height: 215px;
+}
+
+.price {
+    margin-top: 30px;
+    width: 284px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 20px;
+}
+
+.price:hover {
+    cursor: pointer;
+}
+
+.price i {
+    font-size: 30px;
+}
+
+.price a {
+    color: #397FF4;
+    font-size: 16px;
+}
+
+.publish {
+    margin-top: 50px;
+    border: 1px solid #fff;
+    padding: 10px;
+}
+
+.publish p {
+    margin-bottom: 5px;
+}
+
+.right {
+    box-sizing: border-box;
+    width: 1010px;
+}
+
+.head {
+    margin-bottom: 20px;
+}
+
+.head h2 {
+    font-size: 40px;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.head p {
+    font-size: 26px;
+    font-style: oblique;
+    font-weight: 300;
+}
+
+.introduce p {
+    padding-right: 150px;
+    margin-bottom: 30px;
+    line-height: 26px;
+    font-size: 20px;
+}
+
+.about {
+    margin-top: 40px;
+}
+
+.about h3 {
+    font-size: 30px;
+    border-bottom: 2px solid #fff;
+    font-weight: 400;
+}
+
+.about .text p {
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.about .text {
+    margin-top: 35px;
+    width: 740px;
+}
+
+.about .pic {
+    margin-top: 15px;
+    float: right;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.about .pic a {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 16px;
+    color: #DE1B1B;
+    text-decoration: underline;
+}
+
+.about .pic a:hover {
+    cursor: pointer;
+}
+
+.about .pic img {
+    width: 195px;
+    height: 199px;
+}
+
+.review {
+    margin-top: 20px;
+}
+
+.review h3 {
+    font-size: 30px;
+    border-bottom: 2px solid #fff;
+    font-weight: 400;
+}
+
+.review h4 {
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.evaluate p {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.evaluate p i {
+    margin-left: 5px;
+    font-size: 22px;
+}
+
+.evaluate p span {
+    margin-left: 10px;
+}
+
+.review h5 {
+    margin: 25px 0 10px;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.experience {
+    padding: 10px 5px;
+}
+
+.experience:nth-child(odd) {
+    background-color: rgba(255, 255, 255, .1);
+}
+
+.experience:nth-child(even) {
+    background-color: rgba(112, 112, 112, 0.1);
+}
+
+.experience p {
+    margin-bottom: 10px;
+    padding-left: 5px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.experience .p1 {
+    font-weight: 550;
+
+}
+
+/* pop up window */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(39, 37, 37, 0.8);
+    z-index: 999999;
+    display: none;
+}
+
+.pop {
+    box-sizing: border-box;
+    padding: 15px 45px 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 574px;
+    height: 700px;
+    background: #969696;
+    border-radius: 32px;
+}
+
+.pop h3 {
+    margin-bottom: 40px;
+    border-bottom: 1px solid #fff;
+    font-size: 24px;
+    line-height: 60px;
+    font-weight: bold;
+}
+
+.pop h3 i {
+    margin: 0 20px 0 10px;
+}
+
+.pop_con {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.pop_con img {
+    margin-right: 30px;
+    float: left;
+    width: 147px;
+    height: 252px;
+}
+
+.pop_con h5 {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.pop_con .p1 {
+    margin-top: 40px;
+}
+
+.pop_con h6 {
+    font-size: 20px;
+}
+
+.close_pop {
+    position: fixed;
+    right: 50px;
+    top: 50px;
+    font-size: 40px;
+}
+
+.close_pop:hover {
+    cursor: pointer;
+}
+
+.btn {
+    margin-left: 140px;
+    text-align: right;
+}
+
+.btn a {
+    display: block;
+    margin-top: 15px;
+    display: block;
+    width: 150px;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 16px;
+    border: none;
+    text-align: center;
+    color: #333;
+    line-height: 30px;
+    background-color: #fff;
+}
+
+.btn a:hover {
+    cursor: pointer;
+}
+
+.btn a.view {
+    background-color: #DE1B1B;
+}
+
+.pop h4 {
+    margin-bottom: 20px;
+    padding: 20px 0 5px;
+    border-bottom: 1px solid #fff;
+    font-size: 24px;
+}
+
+.like li {
+    float: left;
+    margin-right: 20px;
+    width: 106px;
+}
+
+.like li:last-child {
+    margin-right: 0;
+}
+
+.like li img {
+    height: 160px;
+}
+
+.like li p {
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 515px) {
+
+    .left {
+        width: 100%;
+    }
+
+    .left .pic_box {
+        padding: 10px 10px 0 25px;
+    }
+
+    .img1 {
+        margin-right: 23px;
+        height: 327px;
+    }
+
+    .img2,
+    .img3 {
+        width: 100px;
+        height: 155px;
+    }
+
+    .img2 {
+        margin-bottom: 5px;
+    }
+
+    .price {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .publish {
+        margin-top: 30px;
+    }
+
+    .right {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .head h2,
+    .about h3,
+    .review h3 {
+        font-size: 26px;
+    }
+
+    .head p {
+        font-size: 18px;
+    }
+
+    .introduce p {
+        padding-right: 0;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    .about {
+        margin-top: 20px;
+    }
+
+    .about .text {
+        display: none;
+    }
+
+    .about .pic img {
+        width: 100%;
+        height: auto;
+    }
+
+    .review h4 {
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+
+    .review h4,
+    .review h5 {
+        font-size: 18px;
+    }
+
+    .pop h3{
+        margin-bottom: 20px;
+    }
+
+    .pop {
+        padding: 0 15px 0;
+        width: 90%;
+        height: 610px;
+        border-radius: 15px;
+    }
+    .close_pop{
+        display: none;
+    }
+    .pop_con img {
+        margin-right: 10px;
+        width: 150px;
+        height: 230px;
+    }
+    .pop_con h5 {
+        font-size: 20px;
+    }
+
+    .pop_con h6 {
+        font-size: 16px;
+    }
+    .pop_con {
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .like li {
+        width: 100px;
+    }
+    .like li:nth-child(3){
+        margin-right: 0;
+    }
+    .like li:last-child{
+        display: none;
+    }
+
+    .btn {
+        margin-left: 30px;
+        text-align: right;
+    }
+
+}

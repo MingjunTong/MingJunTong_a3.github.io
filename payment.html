@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="user-scalable=no,width=414" />
+    <title>PAYMENT PAGE</title>
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/check.css">
+    <script src="./js/animate.js"></script>
+    <script src="./js/index.js"></script>
+
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <header>
+        <div class="con">
+            <a href="./index.html">
+                <div class="logo">C&Y BOOK</div>
+            </a>
+            <div class="search">
+                <input type="text" placeholder="Search">
+                <button></button>
+            </div>
+            <ul class="nav">
+                <li><a href="">Discover</a></li>
+                <li><a href="">Store</a></li>
+                <li><a href="shoppingCar.html">Cart</a></li>
+                <li><a href="">Account</a></li>
+            </ul>
+            <a class="nav_btn" href="javascript:;"><i class="fa fa-bars" aria-hidden="true"></i></a>
+            <div class="wapContainer clearFix">
+                <a href="javascript:;" class="nav_close"></a>
+                <ul class="wap_nav_ul clearfix">
+                    <li><a href="">Discover</a></li>
+                    <li><a href="">Store</a></li>
+                    <li><a href="">Cart</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- 内容 -->
+    <div class="main">
+        <div class="con clearFix">
+            <div class="current">
+                <a href="./index.html">Home</a><span>/</span><a href="./shoppingCar.html">Shopping Cart</a><span>/</span><a href="./check.html">Check Out</a>
+            </div>
+            <div class="head">Payment</div>
+            <div class="left payment fl">
+                <div class="box">
+                    <div class="hd">Payment Methods</div>
+                    <div class="ipt_box">
+                        <div class="lable">Credit / Debit Card</div>
+                        <div><input type="text" placeholder="Card Number" class="ipt1" style="margin-bottom: 15px;">
+                        </div>
+                        <div><input type="text" placeholder="Holder's Name*" class="ipt1"></div>
+                    </div>
+                    <div class="ipt_box">
+                        <div class="lable">Expiration Date*</div>
+                        <div>
+                            <input type="text" placeholder="First Name*" class="ipt2">
+                            <input type="text" placeholder="Middle Name" class="ipt2">
+                        </div>
+                    </div>
+                    <div class="ipt_box cvv">
+                        <div class="lable">CVV</div>
+                        <div><input type="text" class="ipt1"><i class="fa fa-cc-mastercard" aria-hidden="true"></i><i
+                                class="fa fa-cc-visa" aria-hidden="true"></i></div>
+                    </div>
+
+                </div>
+                <div class="box check_radio">
+                    <div class="ipt_box">
+                        <input type="radio" name="zoom" id="zoom1" value="enlarge" checked />
+                        <span>Pay Pal / Apple Pay </span>
+                    </div>
+                </div>
+                <div class="box check_radio">
+                    <div class="ipt_box">
+                        <input type="radio" name="zoom" id="zoom1" value="enlarge" checked />
+                        <span>Afterpay</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="hd">Gift Card</div>
+                    <div class="ipt_box">
+                        <div class="lable">Card Number</div>
+                        <div><input type="text" placeholder="" class="ipt1"></div>
+                    </div>
+                    <div class="ipt_box">
+                        <div class="lable">Card Pin</div>
+                        <div><input type="text" placeholder="" class="ipt1"></div>
+                    </div>
+                    <div class="btn" style="margin-top: 35px;">
+                        <button>Apply Gift Card</button>
+                    </div>
+                </div>
+            </div>
+            <div class="right fr">
+                <div class="box">
+                    <div class="hd">Order Summary</div>
+                    <div class="item">
+                        <h3>3 items:</h3>
+                        <p><span class="p_text fl">1x Hot ice: a novel</span><span class="p_num fr">$ 25.48</span></p>
+                        <p><span class="p_text fl">1x Book of Night</span><span class="p_num fr">$ 20.99</span></p>
+                        <p><span class="p_text fl">1x Love stories</span><span class="p_num fr">$ 27.99</span></p>
+                    </div>
+                    <div class="item">
+                        <h3>Items:</h3>
+                        <p><span class="p_text fl">Sub Total:</span><span class="p_num fr">$ 25.48</span></p>
+                        <p><span class="p_text fl">Shipping:</span><span class="p_num fr">$ 20.99</span></p>
+                    </div>
+                    <div class="total">
+                        <span class="fl">Total</span>
+                        <span class="p_sum fr">$ 82.45</span>
+                    </div>
+                </div>
+                <div class="btn">
+                    <a href="./check.html">
+                        <button class="back">Go Back</button>
+                    </a>
+                    <button class="pay">Pay</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- btn -->
+    <footer>
+        <div class="con clearFix">
+            <div class="footer_left fl">
+                <h3>COOK<span>&</span><br>YOUNG </h3>
+                <p>BOOKSELLERS</p>
+            </div>
+            <div class="footer_right fl">
+                <p class="p1">ABN # 42 641 705 455 </p>
+                <p>Geelong City : geelongcity@cookandyoungbooksellers.com.au | tel: 5221 6666</p>
+                <p>Southland: southland@cookandyoungbooksellers.com.au | tel: 9584 1245</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- pop up window -->
+    <div class="popup">
+        <div class="pop">
+            <a href="index.html" class="home">Back Home</a>
+           <h2>Congratulations!</h2>
+           <h3>Purchase Completed</h3>
+           <h4>We're Processing Your Order.</h4>
+        </div>
+    </div>
+
+
+    <script>
+        // show and hide payment windown 
+        var pay = document.querySelector(".pay");
+        var pop = document.querySelector(".popup");
+        var close_pop = document.querySelector(".close_pop");
+        // var return_btn = document.querySelector(".return");
+        console.log(pay);
+        pay.addEventListener('click', function () {
+            pop.style.display = "block";
+        })
+
+    </script>
+
+
+</body>
+
+</html>
